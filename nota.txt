@@ -1,0 +1,2 @@
+Run server
+php bin/console server:run *:8080
