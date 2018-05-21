@@ -2,11 +2,31 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
+        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+        <style>
+            * {
+                margin : 0;
+                padding : 0;
+                box-sizing : border-box;
+            }
+            
+            .wrapper {
+                display : grid;
+                grid-template-columns : 200px 100vw;
+                grid-template-rows : ;
+            }
+        </style>
     </head>
     <body>
-        {% block body %}{% endblock %}
+        {#{% block body %}{% endblock %}#}
+        <div class="wrapper">
+            <div class="menu-left"></div>
+            
+            {% block content %}{% endblock %}
+        </div>
+        
         {% block javascripts %}{% endblock %}
     </body>
 </html>
