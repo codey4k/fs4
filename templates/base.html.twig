@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
-        <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
         <style>
             * {
                 margin : 0;
@@ -12,10 +12,14 @@
                 box-sizing : border-box;
             }
             
+            body{
+                font-family : 'Rubik', Helvetica;
+            }
+            
             .wrapper {
                 display : grid;
                 grid-template-columns : 200px 100vw;
-                grid-template-rows : ;
+                /*grid-template-rows : ;*/
             }
         </style>
     </head>
