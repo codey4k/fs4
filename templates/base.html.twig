@@ -4,35 +4,10 @@
         <meta charset="UTF-8">
         <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
-        {#<link rel="stylesheet" type="text/css" href="{{ asset('./style.css') }}">#}
+        <link rel="stylesheet" type="text/css" href="{{ asset('./css/index.css') }}">
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
-        <style>
-            * {
-                margin : 0;
-                padding : 0;
-                box-sizing : border-box;
-            }
-            
-            body{
-                font-family : 'Rubik', Helvetica;
-            }
-            
-            .wrapper {
-                margin-left : -200px;
-                overflow : hidden;
-                height : 100vh;
-                display : grid;
-                grid-template-columns : 200px 100vw;
-                grid-template-rows : ;
-            }
-            .menu-left {
-                height : 100vh;
-                background : orange;
-            }
-        </style>
     </head>
     <body>
-        {#{% block body %}{% endblock %}#}
         <div class="wrapper">
             <div class="menu-left"></div>
             
