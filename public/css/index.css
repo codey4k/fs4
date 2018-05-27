@@ -1,6 +1,8 @@
 * {
     margin : 0;
     padding : 0;
+    border : 0;
+    outline : 0;
     box-sizing : border-box;
 }
             
@@ -9,13 +11,17 @@ body{
 }
             
 .wrapper {
-    margin-left : -200px;
+    /*position : relative;*/
+    /*margin-left : -200px;*/
     overflow : hidden;
     height : 100vh;
     display : grid;
+    /*transition : 1.5s cubic-bezier(0,1.56,1,-1.4)*/
     grid-template-columns : 200px 100vw;
-    /*grid-template-rows : ;*/
 }
 .menu-left {
+    height : 100%;
+    grid-column : span 1;
     background : green;
 }
+
