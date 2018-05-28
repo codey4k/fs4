@@ -1,11 +1,29 @@
 .index {
-    position : relative;
+    /*position : relative;*/
     /*height : auto;*/
-    background : red;
+    background : #eee;
     overflow-y : scroll;
-    grid-colmn : span 1;
+    grid-column : 2 / 3;
     /*overflow-x : hidden;*/
     /*overflow-x : hidden;*/
+}
+
+.navbar {
+    position : fixed;
+    width : 100%;
+    height : 80px;
+    background : tomato;
+    
+    display : flex;
+    
+    z-index : 2000;
+}
+
+.navbar__container {
+    margin : auto;
+    width : 98%;
+    height : 60px;
+    background : #444;
 }
 
 .header {
@@ -25,20 +43,3 @@
     background : #ccc;
 }
 
-.navbar {
-    position : fixed;
-    width : 100%;
-    height : 80px;
-    background : tomato;
-    
-    display : flex;
-    
-    z-index : 2000;
-}
-
-.navbar__container {
-    margin : auto;
-    width : 95%;
-    height : 60px;
-    background : #444;
-}

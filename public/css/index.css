@@ -20,8 +20,7 @@ body{
     grid-template-columns : 200px 100vw;
 }
 .menu-left {
-    height : 100%;
-    grid-column : span 1;
+    grid-column : 1 / 2;
     background : green;
 }
 
