@@ -4,9 +4,11 @@
     border : 0;
     outline : 0;
     box-sizing : border-box;
+    transition : all .6s;
 }
             
-body{
+body {
+    min-height : 100vh;
     font-family : 'Rubik', Helvetica;
 }
             
