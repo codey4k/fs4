@@ -3,6 +3,11 @@
     background : #eee;
     overflow-y : scroll;
     grid-column : 2 / 3;
+    
+    
+    display : grid;
+    grid-template-columns : 1fr;
+    grid-template-rows : auto;
 }
 
 .navbar {
