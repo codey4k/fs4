@@ -6,6 +6,10 @@
     box-sizing : border-box;
     transition : all .6s;
 }
+     
+:root {
+    --theme : blue;
+}
             
 body {
     min-height : 100vh;
@@ -23,6 +27,6 @@ body {
 }
 .menu-left {
     grid-column : 1 / 2;
-    background : green;
+    background : var(--theme);
 }
 
