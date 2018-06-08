@@ -15,16 +15,17 @@ body {
     min-height : 100vh;
     font-family : 'Rubik', Helvetica;
 }
-            
+
 .wrapper {
     /*position : relative;*/
-    /*margin-left : -200px;*/
+    margin-left : -200px;
     overflow : hidden;
     height : 100vh;
     display : grid;
     /*transition : 1.5s cubic-bezier(0,1.56,1,-1.4)*/
     grid-template-columns : 200px 100vw;
 }
+
 .menu-left {
     grid-column : 1 / 2;
     background : var(--theme);
@@ -34,8 +35,8 @@ body {
     position : fixed;
     right : 0;
     bottom : 0;
-    width : 100px;
-    height : 100px;
+    width : 80px;
+    height : 80px;
     background : var(--theme);
     z-index : 3000;
     

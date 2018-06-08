@@ -10,6 +10,10 @@
     grid-template-rows : auto;
 }
 
+.index::-webkit-scrollbar {
+    width : 0px;
+}
+
 .navbar {
     position : fixed;
     width : 100%;
@@ -37,6 +41,16 @@
     width : 98%;
     height : 60px;
     background : #444;
+    
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+}
+
+.navbar__iconmenu,
+.navbar__other {
+    color : #eee;
+    cursor : pointer;
 }
 
 .header {
